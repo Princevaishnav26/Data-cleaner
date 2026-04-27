@@ -21,4 +21,4 @@ def value_range(df, min_moist, max_moist, min_temp, max_temp):
     return df
 
 def save_data(df, output_path):
-    df.to_csv(output_path, index=False)
+    df.to_csv(output_path, index=False) 
